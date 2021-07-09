@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+@mixin rounded-corners($radius: 5px) {
+    border-radius: $radius;
+}
+
+a {
+    @include rounded-corners(3px);
+    color: var(--primary);
+}
+
+.topic-list-item.visited a.title:not(.badge-notification), 
+.latest-topic-list-item.visited a.title:not(.badge-notification), 
+.category-topic-link.visited a.title:not(.badge-notification) {
+    color: var(--primary);
+}
+
+.btn {
+    @include rounded-corners();
+}
+
+.navigation-controls {
+    .btn {
+        background-color: rgb(253, 121, 45);
+        box-shadow: 4px 4px 2px #000000;
+    }
+}
+.combo-box-header {
+    @include rounded-corners(3px);
+}
+
+
+body {
+    background: linear-gradient(to bottom right, rgb(255, 219, 151), rgb(200, 144, 144));
+}
+
+html {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.d-header {
+    background-color: var(--secondary);
+}
+
+tr {
+    border-bottom: 2px solid #195a70;
+}
+
+.topic-list {
+    .default {
+        color: var(--primary);
+    }
+    .posts {
+        color: var(--primary);
+    }
+
+    .views {
+        color: var(--primary);
+    }
+
+    .activity {
+        color: var(--primary);
+    }
+}
+
+.nav-pills>li a.active {
+    color: var(--secondary);
+    background-color: #363636;
+}
