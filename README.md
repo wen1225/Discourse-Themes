@@ -1,10 +1,11 @@
 # Discourse-Themes
-This repo stores all themes that I have been developing. Each theme name corresponds to a different branch. Checkout the branch that you're interested in and start making changes.
+This repo hosts all the themes that I have been developing. Each branch corresponds to a unique theme.
 
 ## Themes Completed (Count: 1)
 * future
   * A dystopian inspired theme, designed with scss.
+  ![future](/theme-screenshots/future.png)
 
-## Themese In Progress (Count: 1)
+## Themes In Progress (Count: 1)
 * night_and_day
-  * A theme that has light and dark mode, focused around js.
+  * A theme that has light and dark mode, developed with scss and js.
